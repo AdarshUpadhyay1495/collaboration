@@ -1,0 +1,22 @@
+const app=require("express");
+const express=require("express");
+port==3000;
+
+app.get("/",(req,res)=>{
+    res.send("chal raha hai backend");
+})
+
+app.get("/about",(req,res)=>{
+    res.send("This is the about page");
+})
+
+app.get("/contact",(req,res)=>{
+    res.send("This is the contact page");
+})
+
+
+
+
+app.listen(3000,()=>{
+    console.log("server is running on port "+port);
+})
