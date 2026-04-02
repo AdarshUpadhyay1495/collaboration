@@ -6,6 +6,12 @@ app.get("/",(req,res)=>{
     res.send("chal raha hai backend");
 })
 
+app.get("/about",(req,res)=>{
+    res.send("This is the about page");
+})
+
+
+
 app.listen(3000,()=>{
     console.log("server is running on port "+port);
 })
